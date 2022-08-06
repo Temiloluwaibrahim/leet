@@ -1,0 +1,38 @@
+img{
+   width: 100px;
+   margin: 30px auto;
+   border-radius: 50px;
+   float:left ;
+   margin-left: 10px;
+}
+.username{
+   font-weight: bold;
+   
+}
+   p{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+
+}
+
+@keyframes slidein {
+from{
+   margin-left: 100%;
+   width: 300%;
+   color: blue;
+}
+75%{
+     font-size: 300%;
+     margin-left: 25%;
+     width: 150%;
+}
+to{
+   margin-right: 0%;
+   width: 100%;
+   color: green;
+   font-weight: 75%;
+   font-stretch: expanded;
+}
+}
